@@ -1,5 +1,5 @@
 {% set name = "dominodatalab" %}
-{% set version = "1.2.3" %}
+{% set version = "1.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dominodatalab-{{ version }}.tar.gz
-  sha256: 483f6715e3ab912f208ab0d6dfce0484f9ca6b4fdb5696049fd40064a1b197ea
+  sha256: 40b98527375e15111efb0fd1fe607224edc87949befdb15803c1bac0b1306f58
 
 build:
   noarch: python
