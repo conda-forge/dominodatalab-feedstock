@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dominodatalab-{{ version }}.tar.gz
-  sha256: ada8d4185496663c4b4197411b7052007f437d118444d510f4c56d21e00881ba
+  sha256: 62b398a3cf16bc24056dea181c40d76677c1fa5b625e2f6c009d28262a16a95a
 
 build:
   noarch: python
