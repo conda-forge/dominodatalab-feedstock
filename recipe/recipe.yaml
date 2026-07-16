@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: dominodatalab
-  version: "2.1.0"
+  version: 2.2.0
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/dominodatalab-${{ version }}.tar.gz
-  sha256: 32344f0efaeb302a176946585bc5a7174d929e0f03b65d62433a2f31e05d89b4
+  sha256: fadc80d9160a3ba1379c153a225fa18e13c5b909bea55073b0e1951e02baac32
 
 build:
   number: 0
@@ -31,7 +31,7 @@ requirements:
     - frozendict >=2.3,<3.dev0
     - python-dateutil >=2.8.2,<2.9.dev0
     - retry ==0.9.2
-    - typing_extensions >=4.13.0,<4.14.dev0
+    - typing_extensions >=4.13,<5.dev0
 tests:
   - python:
       imports:
